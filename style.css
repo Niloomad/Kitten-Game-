@@ -1,0 +1,105 @@
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #5b3a0e, #938989, #cd4259); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.sec1{
+
+    background-color: lightpink;
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 50vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+  
+.game-button {
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-right: 5%;
+    font-size: 3rem;
+    color: #333;
+    background-color: #ffffff;
+    border: 2px solid #ffb3d9;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+
+  }
+
+  .game-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:100% ;
+    overflow-x: hidden;
+    min-height: 30vh;
+    background-color: rgb(252, 217, 222);
+
+  }
+
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 20vh;
+    background-color: rgb(252, 217, 222);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+
+  }
+  
+  .game-button:hover {
+    background-color: #ffb3d9;
+    transform: scale(1.1);
+  }
+  
+  .game-button:active {
+    transform: scale(0.95);
+  }
+
+  @media (max-width: 576px) {
+    .game-button {
+      font-size: 2.5rem;
+    }
+  
+    .game-button {
+      width: 80px;
+      height: 80px;
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .game-button {
+      font-size: 2rem;
+    }
+  
+    
+  }
